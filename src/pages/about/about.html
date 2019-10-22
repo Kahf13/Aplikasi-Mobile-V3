@@ -1,0 +1,59 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title class="tampilmenu">
+      Menu
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<ion-list>
+       <ion-icon name="list"></ion-icon>
+      <button ion-button color="secondary" (click)="onGoToDaftar()">
+        <ion-label>
+          <div><h1>Daftar</h1></div>
+        </ion-label>
+
+      </button>
+<hr>
+
+    <ion-icon name="basket"></ion-icon>
+   <button ion-button color="secondary" (click)="onGoToKeranjang()">
+     <ion-label>
+       <div><h1>Keranjang</h1></div>
+     </ion-label>
+
+   </button>
+<hr>
+
+    <ion-icon name="add-circle"></ion-icon>
+   <button ion-button color="secondary" (click)="onGoToTambah()">
+     <ion-label>
+       <div><h1>Tambah Produk</h1></div>
+     </ion-label>
+
+   </button>
+   <hr>
+
+   <ion-icon name="list-box"></ion-icon>
+   <button ion-button color="secondary" (click)="onGoToKomentar()">
+     <ion-label>
+       <div><h1>Komentar</h1></div>
+     </ion-label>
+     </button>
+     <hr>
+
+   <ion-icon name="albums"></ion-icon>
+   <button ion-button color="secondary" (click)="onGoToArtikel()">
+     <ion-label>
+       <div><h1>Artikel</h1></div>
+     </ion-label>
+
+   </button>
+</ion-list>
+
+
+
+
+</ion-content>
